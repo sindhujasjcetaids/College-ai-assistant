@@ -1,0 +1,10 @@
+Flask>=3.0.0
+scikit-learn>=1.3.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Optional — only needed if you set ANTHROPIC_API_KEY / OPENAI_API_KEY
+# to get LLM-synthesized answers instead of the built-in extractive
+# answers. Uncomment whichever you plan to use:
+# anthropic>=0.30.0
+# openai>=1.30.0

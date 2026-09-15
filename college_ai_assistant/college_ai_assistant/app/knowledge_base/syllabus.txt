@@ -1,0 +1,49 @@
+[DOC: B.Tech Computer Science - Semester 5 Syllabus 2026]
+
+COURSE: CS501 - Database Management Systems (4 credits)
+Unit 1: Introduction to DBMS, relational model, ER diagrams, normalization (1NF-BCNF).
+Unit 2: SQL - DDL, DML, DCL, joins, subqueries, views, triggers, stored procedures.
+Unit 3: Transaction management, ACID properties, concurrency control, locking protocols.
+Unit 4: Indexing, B+ trees, query optimization, and database recovery techniques.
+Unit 5: NoSQL databases - document, key-value, and graph stores; introduction to distributed databases.
+Textbook: "Database System Concepts" by Silberschatz, Korth, Sudarshan.
+Assessment: 30% Internal (2 tests + assignments), 20% Lab, 50% End-Semester Exam.
+
+COURSE: CS502 - Operating Systems (4 credits)
+Unit 1: OS structures, process management, process scheduling algorithms.
+Unit 2: Threads, CPU scheduling, synchronization, deadlocks.
+Unit 3: Memory management - paging, segmentation, virtual memory.
+Unit 4: File systems, disk scheduling, I/O management.
+Unit 5: Case studies - Linux and Windows OS architecture.
+Textbook: "Operating System Concepts" by Silberschatz, Galvin, Gagne.
+Assessment: 30% Internal, 20% Lab, 50% End-Semester Exam.
+
+COURSE: CS503 - Computer Networks (3 credits)
+Unit 1: Network models - OSI and TCP/IP, physical and data link layer.
+Unit 2: Network layer - IP addressing, subnetting, routing algorithms.
+Unit 3: Transport layer - TCP, UDP, congestion control.
+Unit 4: Application layer protocols - HTTP, DNS, FTP, SMTP.
+Unit 5: Network security basics - firewalls, VPN, encryption fundamentals.
+Assessment: 40% Internal, 60% End-Semester Exam.
+
+COURSE: CS504 - Software Engineering (3 credits)
+Unit 1: SDLC models - Waterfall, Agile, Scrum, Spiral model.
+Unit 2: Requirements engineering, use case modeling, UML diagrams.
+Unit 3: Software design principles, design patterns.
+Unit 4: Software testing - unit, integration, system, and acceptance testing.
+Unit 5: Software project management, estimation, and risk management.
+Assessment: 40% Internal, 60% End-Semester Exam.
+
+COURSE: CS505L - DBMS and OS Lab (2 credits)
+Weekly lab sessions covering SQL programming, database design projects, and OS system calls/shell scripting exercises. Continuous evaluation based on weekly lab records and a final lab exam.
+
+ELECTIVE: CS5E1 - Introduction to Machine Learning (3 credits)
+Unit 1: Introduction to ML, supervised vs unsupervised learning.
+Unit 2: Linear regression, logistic regression, decision trees.
+Unit 3: Neural networks basics, backpropagation.
+Unit 4: Clustering (k-means), dimensionality reduction (PCA).
+Unit 5: Model evaluation metrics, overfitting, cross-validation.
+Assessment: 30% Internal, 20% Project, 50% End-Semester Exam.
+
+SEMESTER 5 TIMETABLE SUMMARY:
+Monday-Friday, 9:00 AM to 4:00 PM with a 1-hour lunch break at 1:00 PM. Lab sessions are held on Tuesday and Thursday afternoons. Elective classes are scheduled on Wednesday and Friday mornings.

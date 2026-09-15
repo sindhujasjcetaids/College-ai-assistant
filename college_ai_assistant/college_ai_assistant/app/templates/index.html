@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Campus Desk — Student Support Assistant</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="app-shell">
+
+  <aside class="rail">
+    <div class="rail-mark">
+      <div class="mark-glyph">CD</div>
+      <div class="mark-text">
+        <span class="mark-title">Campus Desk</span>
+        <span class="mark-sub">Student Support Assistant</span>
+      </div>
+    </div>
+
+    <nav class="rail-section">
+      <p class="rail-label">Ask about</p>
+      <button class="chip" data-prompt="What is the minimum attendance percentage required?">Attendance policy</button>
+      <button class="chip" data-prompt="How does the CGPA grading system work?">Grading &amp; CGPA</button>
+      <button class="chip" data-prompt="What is covered in the Database Management Systems course?">Course syllabus</button>
+      <button class="chip" data-prompt="What are the latest notices this week?">Latest notices</button>
+      <button class="chip" data-prompt="How do I get a bonafide certificate?">Certificates &amp; FAQs</button>
+      <button class="chip" data-prompt="Calculate my GPA: A+ 4 credits, A 3 credits, B+ 4 credits, O 2 credits">Try GPA calculator</button>
+    </nav>
+
+    <div class="rail-section">
+      <p class="rail-label">Knowledge base</p>
+      <ul class="doc-list" id="doc-list">
+        <li><span class="dot dot-reg"></span> Regulations</li>
+        <li><span class="dot dot-syl"></span> Syllabus</li>
+        <li><span class="dot dot-faq"></span> FAQs</li>
+        <li><span class="dot dot-not"></span> Notices</li>
+      </ul>
+    </div>
+
+    <button class="reset-btn" id="reset-btn">Clear conversation</button>
+  </aside>
+
+  <main class="chat-column">
+
+    <header class="chat-header">
+      <div>
+        <h1>How can I help with college today?</h1>
+        <p class="chat-sub">Answers are grounded in your college's regulations, syllabus, FAQs, and notices — with sources shown for every reply.</p>
+      </div>
+      <span class="status-pill" id="status-pill">● Knowledge base ready</span>
+    </header>
+
+    <section class="messages" id="messages">
+      <div class="msg msg-assistant">
+        <div class="msg-avatar">CD</div>
+        <div class="msg-body">
+          <p>Welcome! I'm your Campus Desk assistant. I can answer questions using your college's regulations, syllabus, FAQs, and notices, and I remember our conversation as we go. Try one of the topics on the left, or just type your question below.</p>
+        </div>
+      </div>
+    </section>
+
+    <form class="composer" id="composer">
+      <textarea
+        id="user-input"
+        placeholder="Ask about attendance, exams, a course, fees, hostel rules…"
+        rows="1"
+        autofocus
+      ></textarea>
+      <button type="submit" id="send-btn" aria-label="Send message">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 12L20 4L13 20L11 13L4 12Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg>
+      </button>
+    </form>
+    <p class="composer-hint">Campus Desk can make mistakes — always confirm critical deadlines with your department office.</p>
+
+  </main>
+</div>
+
+<script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+</body>
+</html>
